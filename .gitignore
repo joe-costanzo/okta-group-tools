@@ -8,6 +8,12 @@
 *_aws_groups.txt
 revops.txt
 
+# Client one-off rule scripts — live in ~/.okta/ops-scripts/, never in-repo (INV-1)
+create-*-rule.js
+recreate-*-rule.js
+update-*-rule.js
+create-okta-rule.js
+
 # Dependencies
 node_modules/
 
